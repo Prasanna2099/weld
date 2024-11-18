@@ -1,0 +1,127 @@
+.container{
+    display: flex;
+    gap: 30px;
+    position: relative;
+   
+  
+    
+}
+.sub{
+    border: 3px solid black;
+    width: 280px;
+    height: 420px;
+    position: relative;
+    left: 16%;
+    top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.icon1{
+    position: relative;
+    top: 23px;
+    transition: 0.5s;
+    color: black;
+}
+button{
+    position: relative;
+    top: 50px;
+    padding: 5px;
+    width: 255px;
+    height: 48px;
+    border-radius: 25px;
+    font-size: 17px;
+    background-color: black;
+    color: white;    
+    transition: 0.5s;
+
+}
+.txt{
+    position: relative;
+    top: 35px;
+    font-size: 15px;
+    line-height: 28px;
+    transition: 0.5s;
+    
+}
+.titile{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 28px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    
+}
+
+.first:hover,.second:hover,.third:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.second:hover{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.869),rgba(255, 0, 157, 0.845));
+    transition: 4ms;
+}
+.second:hover .titile{
+    color: white;
+}
+.second:hover .icon{
+    color: white;
+}
+.second:hover .txt{
+    color: white;
+}
+.second:hover button{
+    background-color: white;
+    color: black;
+}
+.first:hover{
+    background-image: linear-gradient(rgb(0, 157, 255),rgb(20, 224, 243));
+    transition: 4ms;
+}
+.first:hover .titile{
+    color: white;
+}
+.first:hover .icon{
+    color: white;
+}
+.first:hover .txt{
+    color: white;
+}
+.first:hover button{
+    background-color: white;
+    color: black;
+}
+.third:hover{
+    background-image: linear-gradient(rgb(74, 125, 234),rgba(80, 211, 255, 0.845));
+    transition: 4ms;
+}
+.third:hover .titile{
+    color: white;
+}
+.third:hover .icon{
+    color: white;
+}
+.third:hover .txt{
+    color: white;
+}
+.third:hover button{
+    background-color: white;
+    color: black;
+}
+
+
+
+@media (max-width: 1000px) {
+    .container{
+        flex-direction: column;
+        position: relative;
+        right: 2px;
+    }
+    
+}
+
+  
